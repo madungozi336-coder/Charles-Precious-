@@ -1,7 +1,7 @@
 index html 
 <!DOCTYPE html>
 
-}
+
 
     <div class="logo">✦ CHARLES PRECIOUS SCHOOL</div>
     <p>Where Every Child Discovers Their Brilliance.</p>
