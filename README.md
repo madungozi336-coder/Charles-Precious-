@@ -1,8 +1,156 @@
-index html 
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admissions | Charles Precious School</title>
 
+<style>
+:root {
+    --blue: #87CEEB;
+    --orange: #FF8C42;
+    --purple: #7952B3;
+    --dark: #20284A;
+    --white: #FFFFFF;
+}
 
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #EAF8FF, #F5EEFF);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--white);
+    padding: 22px 15px;
+    text-align: center;
+    border-bottom: 5px solid var(--blue);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 760px;
+    margin: 35px auto;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: 0 8px 30px #20284A15;
+}
+
+h1 {
+    text-align: center;
+    color: var(--purple);
+    margin-bottom: 8px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: var(--purple);
+    font-size: 19px;
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 6px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #CCD4E5;
+    border-radius: 9px;
+    font-size: 16px;
+    background: #FCFDFF;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid var(--blue);
+    border-color: var(--purple);
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: var(--orange);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--purple);
+}
+
+.note {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #59627A;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #E8F7EE;
+    color: #14532D;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #59627A;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 18px 12px;
+        padding: 20px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
     <div class="logo">✦ CHARLES PRECIOUS SCHOOL</div>
     <p>Where Every Child Discovers Their Brilliance.</p>
 </header>
@@ -140,3 +288,4 @@ document.getElementById("admissionForm")
 
 </body>
 </html>
+        
