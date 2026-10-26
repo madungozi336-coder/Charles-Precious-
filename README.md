@@ -6,7 +6,13 @@ index html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Admissions | Charles Precious School</title>
 
-<style>
+<style>CharlesPreciousAcademy/
+│
+├── index.html
+└── charles-precious-academy-logo.png<img
+    src="charles-precious-academy-logo.png"
+    alt="Charles Precious Academy Logo"
+    width="180"
 :root {
     --blue: #87CEEB;
     --orange: #FF8C42;
